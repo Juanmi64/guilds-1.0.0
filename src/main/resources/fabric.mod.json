@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "guilds",
+  "version": "${version}",
+  "name": "Guilds",
+  "description": "Sistema completo de guilds server-side para Fabric 1.21.1: rangos editables, banco, niveles y mejoras, homes, GUIs, impuestos, chat de guild, integraciones opcionales (Impactor, PlaceholderAPI, LuckPerms) y almacenamiento en MariaDB.",
+  "authors": [
+    "Datos"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.datos.guilds.GuildsMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.1",
+    "java": ">=21"
+  }
+}
